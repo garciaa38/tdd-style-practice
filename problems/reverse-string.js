@@ -1,7 +1,7 @@
 module.exports = function reverseString(string) {
-  let newStr = '';
+  let newString = ''
   for (let i = string.length - 1; i >= 0; i--) {
-    newStr += string[i];
+    newString += string[i]
   }
-  return newStr;
+  return newString
 };

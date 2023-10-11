@@ -1,9 +1,9 @@
-const chai = require("chai");
+const chai = require("chai")
 const expect = chai.expect;
-const reverseString = require('../problems/reverse-string');
+const reverseString = require("../problems/reverse-string")
 
-describe('reverse-string', function () {
+describe("Reverse String", function () {
     it("Should reverse a string", function () {
-        expect(reverseString('fun')).to.eql('nuf')
+        expect(reverseString("fun")).to.eql("nuf")
     })
 })
